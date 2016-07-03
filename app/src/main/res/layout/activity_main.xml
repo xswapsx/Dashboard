@@ -1,0 +1,49 @@
+<com.swaps.dashboard.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_profile"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_user"
+        android:text="Profile" />
+
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_enquiries"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_enquiries"
+        android:text="Enquiries" />
+
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_quotations"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_quotations"
+        android:text="Qutotations" />
+
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_orders"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_order"
+        android:text="Orders" />
+
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_pay_history"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_pay_history"
+        android:text="Payment History" />
+
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_reports"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_reports"
+        android:text="Reports" />
+
+</com.swaps.dashboard.DashboardLayout>
