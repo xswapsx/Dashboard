@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by swaps on 7/3/2016.
+ * Profile activity
  */
 public class Profile extends AppCompatActivity {
 
