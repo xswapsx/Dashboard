@@ -14,5 +14,9 @@ public class Profile extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile_layout);
+        init();
+    }
+
+    private void init() {
     }
 }
