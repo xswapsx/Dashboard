@@ -18,5 +18,6 @@ public class Profile extends AppCompatActivity {
     }
 
     private void init() {
+        System.out.println("Inside init()");
     }
 }
